@@ -1,0 +1,19 @@
+# GNU/Unix
+.*
+!.gitignore
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Package Files #
+*.class
+*.dex
+*.cache
+*.war
+
+# Eclipse Generated Files
+/RomanNumbersConverter/bin/
