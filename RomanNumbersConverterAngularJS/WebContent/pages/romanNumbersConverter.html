@@ -1,0 +1,43 @@
+<br />
+<form name="convertToRomanNumberForm" role="form">
+
+	<div class="container">
+		<div align="center">
+			<h1 style="text-align: center;">Convert Decimal Number To Roman
+				Number</h1>
+			<br />
+			<table width="50%">
+				<tr>
+					<td>
+						<div class="form-group">
+							<div class="input-group">
+								<div class="input-group-addon">Decimal Number:</div>
+								<input class="form-control" placeholder="Decimal number value."
+									required="required" ng-model="decimalNumber" />
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="form-group">
+							<div class="input-group">
+								<div class="input-group-addon">Roman Number:</div>
+								<input class="form-control" disabled="true"
+									ng-model="romanNumber" />
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+
+			<div class="form-group">
+				<button type="submit"
+					ng-click="convertToRomanNumberconvertToRomanNumber()"
+					class="btn btn-primary">
+					<span class="glyphicon glyphicon-transfer"></span> Convert Number
+				</button>
+			</div>
+		</div>
+	</div>
+</form>
